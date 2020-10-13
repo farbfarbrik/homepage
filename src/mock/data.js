@@ -17,44 +17,47 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'profile.jpeg',
   paragraphOne:
     'I am a Full Stack Web Developer with focus on front end development. With every line of code, I strive to make the web a more beautiful place.',
   paragraphTwo:
     'I am passionate about building scalable software, creating solutions for real world problems and learning every day to grow as a professional in the web development field.',
   paragraphThree:
     'Current Tech Stack: Javascript, Typescript, React, Angular, HTML, CSS, NodeJS, Express, PostgreSQL, MongoDB, Agile, Git',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1mFiP8tFVK4VYjCnjmLKAMJqdT0_JdnD9/view', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'face-recognition.png',
+    title: 'Face Recognition',
+    info:
+      'A full-stack web app that allows you to detect faces on any image. The face recognition is achieved by using the clarifai API. User authentication was implemented by myself.',
+    info2: 'I used React, Node, Express.js and PostgreSQL for creating this app.',
+    url: 'https://github.com/farbfarbrik/face-recognition',
+    repo: 'https://github.com/farbfarbrik/face-recognition',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'cookbook.png',
+    title: 'Cookbook',
+    info:
+      'A full-stack web app that allow you to manage your recipes in this cookbook. The app has i18n support to switch between German and English.',
+    info2: 'I used Angular, Typescript and Firebase for creating this app.',
+    url: 'https://cookbook-1a1b6.web.app/auth',
+    repo: 'https://github.com/farbfarbrik/Cookbook',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'paint-online.png',
+    title: 'Paint Online',
+    info:
+      'A front end app that uses the HTML canvas element to create a paint clone in the browser. The app uses localStorage in order to store and retrieve your drawing.',
+    info2: 'I used Javascript, CSS, HTML for creating this app.',
+    url: 'https://farbfarbrik.github.io/paint-online/',
+    repo: 'https://github.com/farbfarbrik/paint-online', // if no repo, the button will not show up
   },
 ];
 
@@ -70,18 +73,8 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'email',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/sascha-d%C3%B6rnath-a69054b4/',
     },
     {
       id: nanoid(),
