@@ -36,7 +36,7 @@ export const projectsData = [
     info:
       'A full-stack web app that allows you to detect faces on any image. The face recognition is achieved by using the clarifai API. User authentication was implemented by myself.',
     info2: 'I used React, Node, Express.js and PostgreSQL for creating this app.',
-    url: 'https://github.com/farbfarbrik/face-recognition',
+    url: 'https://face-recognition-4.herokuapp.com/',
     repo: 'https://github.com/farbfarbrik/face-recognition',
   },
   {
