@@ -35,19 +35,20 @@ export const projectsData = [
     title: 'Face Recognition',
     info:
       'A full-stack web app that allows you to detect faces on any image. The face recognition is achieved by using the clarifai API. User authentication was implemented by myself.',
-    info2: 'I used React, Node, Express.js and PostgreSQL for creating this app.',
+    info2:
+      'I used React, Node, Express.js and PostgreSQL for creating this app. The app is hosted on Heroku.',
     url: 'https://face-recognition-4.herokuapp.com/',
     repo: 'https://github.com/farbfarbrik/face-recognition',
   },
   {
     id: nanoid(),
-    img: 'cookbook.png',
-    title: 'Cookbook',
+    img: 'mission-control.png',
+    title: 'Space Control Center',
     info:
-      'A full-stack web app that allow you to manage your recipes in this cookbook. The app has i18n support to switch between German and English.',
-    info2: 'I used Angular, Typescript and Firebase for creating this app.',
-    url: 'https://cookbook-1a1b6.web.app/auth',
-    repo: 'https://github.com/farbfarbrik/Cookbook',
+      'A full-stack web app that uses the SpaceX API to query all upcoming and previous space missions. Schedule your own space flights missions to one of the habitable kepler exoplants!',
+    info2: 'I used Javascript, CSS, HTML and Deno for creating this app. The app is hosted on AWS.',
+    url: 'http://ec2-18-185-172-189.eu-central-1.compute.amazonaws.com:8000/index.html',
+    repo: 'https://github.com/farbfarbrik/space-control-center',
   },
   {
     id: nanoid(),
@@ -57,7 +58,28 @@ export const projectsData = [
       'A front end app that uses the HTML canvas element to create a paint clone in the browser. The app uses localStorage in order to store and retrieve your drawing.',
     info2: 'I used Javascript, CSS, HTML for creating this app.',
     url: 'https://farbfarbrik.github.io/paint-online/',
-    repo: 'https://github.com/farbfarbrik/paint-online', // if no repo, the button will not show up
+    repo: 'https://github.com/farbfarbrik/paint-online',
+  },
+  {
+    id: nanoid(),
+    img: 'video-player.png',
+    title: 'Custom Video Player',
+    info:
+      'A custom built Video Player that has all features of a modern web video player. Adjust playback speed, fullscreen',
+    info2: 'I used Javascript, CSS, HTML for creating this app.',
+    url: 'https://farbfarbrik.github.io/video-player/',
+    repo: 'https://github.com/farbfarbrik/video-player',
+  },
+  {
+    id: nanoid(),
+    img: 'cookbook.png',
+    title: 'Cookbook',
+    info:
+      'A full-stack web app that allow you to manage your recipes in this cookbook. The app has i18n support to switch between German and English.',
+    info2:
+      'I used Angular, Typescript and Firebase for creating this app. The app is hosted on Firebase.',
+    url: 'https://cookbook-1a1b6.web.app/auth',
+    repo: 'https://github.com/farbfarbrik/Cookbook',
   },
 ];
 
