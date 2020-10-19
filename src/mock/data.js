@@ -64,8 +64,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'video-player.png',
     title: 'Custom Video Player',
-    info:
-      'A custom built Video Player that has all features of a modern web video player. Adjust playback speed, fullscreen',
+    info: 'A custom built Video Player that has all features of a modern web video player.',
     info2: 'I used Javascript, CSS, HTML for creating this app.',
     url: 'https://farbfarbrik.github.io/video-player/',
     repo: 'https://github.com/farbfarbrik/video-player',
