@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'I am passionate about building scalable software, creating solutions for real world problems and learning every day to grow as a professional in the web development field.',
   paragraphThree:
-    'Current Tech Stack: Javascript, Typescript, React, Angular, HTML, CSS, NodeJS, Express, PostgreSQL, MongoDB, Agile, Git',
+    'My current Tech Stack includes: Vue/Nuxt, Angular, React, Typescript, Javascript, CSS, HTML, NodeJS, PostgreSQL, MongoDB, Docker, Agile, Git',
   resume: 'https://drive.google.com/file/d/1mFiP8tFVK4VYjCnjmLKAMJqdT0_JdnD9/view', // if no resume, the button will not show up
 };
 
@@ -39,16 +39,6 @@ export const projectsData = [
       'I used React, Node, Express.js and PostgreSQL for creating this app. The app is hosted on Heroku.',
     url: 'https://face-recognition-4.herokuapp.com/',
     repo: 'https://github.com/farbfarbrik/face-recognition',
-  },
-  {
-    id: nanoid(),
-    img: 'mission-control.png',
-    title: 'Space Control Center',
-    info:
-      'A full-stack web app that uses the SpaceX API to query all upcoming and previous space missions. Schedule your own space flights missions to one of the habitable kepler exoplants!',
-    info2: 'I used Javascript, CSS, HTML and Deno for creating this app. The app is hosted on AWS.',
-    url: 'http://ec2-18-185-172-189.eu-central-1.compute.amazonaws.com:8000/index.html',
-    repo: 'https://github.com/farbfarbrik/space-control-center',
   },
   {
     id: nanoid(),
@@ -68,6 +58,17 @@ export const projectsData = [
     info2: 'I used Javascript, CSS, HTML for creating this app.',
     url: 'https://farbfarbrik.github.io/video-player/',
     repo: 'https://github.com/farbfarbrik/video-player',
+  },
+  {
+    id: nanoid(),
+    img: 'mission-control.png',
+    title: 'Space Control Center',
+    info:
+      'A full-stack web app that uses the SpaceX API to query all upcoming and previous space missions. Schedule your own space flights missions to one of the habitable kepler exoplants!',
+    info2:
+      'I used Javascript, CSS, HTML and Deno for creating this app. The app was hosted on AWS, but is currently not deployed.',
+    url: '',
+    repo: 'https://github.com/farbfarbrik/space-control-center',
   },
   {
     id: nanoid(),
